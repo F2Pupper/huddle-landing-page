@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url(images/bg-hero-mobile.svg);
+  width: 100%;
+  margin: auto;
+  color: hsl(192, 100%, 9%);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  color: hsl(192, 100%, 9%);
+  font-size: 1.5rem;
+}
+
+.text p {
+  color:#e0e2e2;
+  font-size: 1.2rem;
+}
+
+.textInfo p {
+  font-size: 1.5rem;
+}
+
+
+/* navbar styling */
+.navbar {
+}
+
+.logoImg {
+  width: 30%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+
+.navBtn {
+  float: right;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 15%;
+  max-width: 100%;
+  font-size: 1rem;
+  color:  hsl(192, 100%, 9%);
+  background-color: white;
+  border-color: transparent;
+  box-shadow: 0 0 10px 5px #e5e8e7;
+}
+
+/* article of header */
+
+.productInfo {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+
+.productImg{
+  width: 60%;
+  margin: 20px auto;
+}
+
+.textInfo {
+  width: 70%;
+  text-align: center;
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.topFreeBtn {
+  background-color: #ff54df;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  border-color: transparent;
+  font-size: 1rem;
+}
+
+/* containers */
+.box {
+  margin: 30px auto;
+  width: 80%;
+  box-shadow: 0 0 10px 5px #e5e8e7;
+}
+.container img {
+  width: 70%;
+  margin: 10px 0 5px 15%;
+}
+
+.text {
+  width: 60%;
+  margin: 10px 0 35px 20%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* floating box */
+.floatBox {
+  width: 85%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px 5px #e5e8e7;
+  border-radius: 5px;
+  text-align: center;
+  padding: .8rem ;
+}
+
+
+.bottomFreeBtn {
+  background-color: #ff54df;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  border-color: transparent;
+  font-size: .7rem;
+}
+
+/* bottom of page */
+.bottomPage {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  margin: 0 auto;
+}
+
+.bottomInfo {
+  margin: 60px 10px;
+  padding-top: 30px;
+}
+
+.location {
+  display: flex;
+}
+
+.email {
+  display: flex;
+}
+
+.phone {
+  display: flex;
+}
+
+.icon {
+  height: 20px;
+  margin: auto 20px;
+}
+
+.bottomText {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+footer {
+  font-size: .7rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* media */
+@media only screen and (max-width: 800px) {
+  .productInfo{
+    flex-direction:column ;
+  }
+
+  .navBtn {
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    padding: .5rem;
+    max-width: 100%;
+    font-size: .7rem;
+    color:  hsl(192, 100%, 9%);
+    background-color: white;
+    border-color: transparent;
+    box-shadow: 0 0 10px 5px #e5e8e7;
+  }
+
+}
